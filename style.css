@@ -1,0 +1,202 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf0;
+    color: #333;
+}
+
+h1 h2 {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+nav {
+    background-color: #fffaf0;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 1140px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav .logo {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: #A60303;
+}
+
+nav .items {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: 1.1em;
+    color: #4f7302;
+    margin-left: 25px;
+    font-weight: bold;
+    text-space: 3px;
+}
+
+nav .items li {
+    background-color: #fffaf0;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+nav li a {
+    color: #4f7302;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: #4f7302;
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline #4f7302;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background-image: url('images/pizza_pepperoni.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 1140px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container p {
+    width: 1140px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 3em;
+    color: #4f7302;
+}
+
+.container h1 h3 {
+    color: #4f7302;
+}
+
+.container a {
+    width: 1140px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #4f7302;
+}
+
+.container a:hover {
+    width: 1140px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #A60303;
+}
+
+.container_detail {
+    width: 1140px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 30px;
+    font-family: 'Playfair Display', sans-serif;
+    color: #4f7302;
+}
+
+.container_detail h2 {
+    color: #A60303;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.container_detail .introductie {
+    grid-column: 1/3;
+}
+
+.container_detail .ingrediënten {
+    grid-row: 2/4;
+}
+
+.pizza-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.pizza-grid .item:nth-child(4) {
+    grid-column: 1 / 3;
+}
+
+.pizza-grid .item:nth-child(5) {
+    grid-column: 3 / 4;
+}
+
+.pizza-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.pizza-card:hover {
+    transform: scale(1.05);
+}
+
+.pizza-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #4f7302;
+    color: #fffaf0;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 30px;
+}
+
+footer a {
+    font-size: 1.0em;
+    text-space: 3px;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #A60303;
+    font-weight: bold;
+}
