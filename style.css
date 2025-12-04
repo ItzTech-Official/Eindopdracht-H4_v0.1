@@ -118,7 +118,7 @@ nav li a:hover {
     color: #A60303;
 }
 
-.container_detail {
+.container_detail { /*TODO: Fix GRID Functions*/
     width: 1140px;
     margin-top: 0px;
     margin-bottom: 0px;
